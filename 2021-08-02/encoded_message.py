@@ -4,6 +4,8 @@ import random
 def coder(query: str) -> str:
     """encode alphabetic strings based on their place value factors.
 
+    Encoding is non-deterministic and can produce a variety of outputs.
+
     Args:
         query (str): The string to encode.
 
